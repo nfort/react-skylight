@@ -1,11 +1,12 @@
 {
-  "name": "react-skylight",
-  "version": "0.5.1",
+  "name": "@nfort/react-skylight",
+  "version": "0.6.3",
   "description": "A react component for modals and dialogs.",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "watch": "babel src --watch -d lib",
+    "start": "react-scripts start",
+    "build": "babel src/component -d lib",
+    "watch": "babel src/component --watch -d lib",
     "develop": "karma start --tdd",
     "karma": "karma start",
     "test": "npm-run-all karma build"
@@ -63,7 +64,7 @@
     "npm-run-all": "^4.0.2",
     "phantomjs-polyfill-object-assign": "0.0.2",
     "phantomjs-prebuilt": "^2.1.7",
-    "react": "^15.0.1",
+    "react": "^16.5.2",
     "react-addons-test-utils": "^15.0.1 || ^0.14.0"
   },
   "babel": {
@@ -75,6 +76,9 @@
     "plugins": []
   },
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "babel-cli": "^6.26.0",
+    "prop-types": "^15.5.10",
+    "react-dom": "^16.5.2",
+    "react-scripts": "^1.1.5"
   }
 }

@@ -2,7 +2,7 @@
 /* eslint-disable no-return-assign */
 import React from 'react';
 import { expect } from 'chai';
-import Skylight from '../src/skylight';
+import Skylight from '../src/component/skylight';
 import SkylightInteractor from './SkylightInteractor';
 
 describe('The Skylight component', () => {

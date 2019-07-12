@@ -77,11 +77,10 @@ export default class SkyLightStateless extends React.Component {
     return (
       <section className={`skylight-wrapper ${this.props.className}`}>
         {overlay}
-        <div className="skylight-dialog" style={finalStyle}>
+        <div className="skylight-dialog" style={finalStyle} onClick={() => this.onCloseClicked()}>
           <a 
             role="button" 
             className="skylight-close-button"
-            onClick={() => this.onCloseClicked()}
             style={closeButtonStyle}
           >
             {this.props.closeButton || '\u00D7'}

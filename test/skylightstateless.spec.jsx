@@ -2,7 +2,7 @@
 /* eslint-disable no-return-assign */
 import React from 'react';
 import { expect } from 'chai';
-import SkylightStateless from '../src/skylightstateless';
+import SkylightStateless from '../src/component/skylightstateless';
 import SkylightInteractor from './SkylightInteractor';
 
 describe('The SkylightStateless component', () => {

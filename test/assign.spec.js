@@ -1,4 +1,4 @@
-import assign from '../src/utils/assign';
+import assign from '../src/component/utils/assign';
 import { expect } from 'chai';
 
 describe('Assign function', () => {
